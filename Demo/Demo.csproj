@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\jieba.NET\jieba.NET.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Lucene.Net" Version="4.8.0-beta00006" />
+    <PackageReference Include="Lucene.Net.QueryParser" Version="4.8.0-beta00006" />
+  </ItemGroup>
+
+</Project>

@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-   <PropertyGroup>
+  <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <PackageId>Lucene.JIEba.net</PackageId>
     <PackageVersion>1.0.16</PackageVersion>
@@ -19,10 +19,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Lucene.Net" Version="4.8.0-beta00005" />
-    <PackageReference Include="Lucene.Net.Analysis.Common" Version="4.8.0-beta00005" />
+    <PackageReference Include="Lucene.Net" Version="4.8.0-beta00006" />
+    <PackageReference Include="Lucene.Net.Analysis.Common" Version="4.8.0-beta00006" />
     <PackageReference Include="System.Text.Encoding.CodePages" Version="4.4.0" />
-      <PackageReference Include="Microsoft.Extensions.FileProviders.Embedded" Version="1.0.0" />
+    <PackageReference Include="Microsoft.Extensions.FileProviders.Embedded" Version="1.0.0" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="stopwords.txt" />
